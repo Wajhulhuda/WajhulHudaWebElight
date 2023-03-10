@@ -1,0 +1,49 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+h2,p,div{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  text-align: center;
+}
+.container{
+  margin: 5%;
+}
+.single-row{
+  margin-bottom: 3rem;
+}
+.card{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.img{
+  flex: 1;
+}
+.content{
+  margin-left: 3rem;
+  flex: 5;
+  width: 50rem;
+}
+.star-issue{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+
+.pushed{
+  color: gray;
+}
+.issue h5,.star h5{
+  margin-bottom: -0.2rem;
+  font-size: 18px;
+}
+#getChange{
+  display: flex;
+  float: right;
+}
